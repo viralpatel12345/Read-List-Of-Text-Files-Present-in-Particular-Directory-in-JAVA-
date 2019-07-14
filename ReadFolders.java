@@ -17,7 +17,7 @@ public class ReadFolders {
             list=file.listFiles();        // Create the list of files.
         }
         else {
-            System.out.println("Files Not Present");
+            System.out.println("Directory Not Found");
         }
         int c=0;
         for(int i=0;i<list.length;i++)
